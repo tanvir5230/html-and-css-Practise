@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkerboard</title>
+    <style>
+      body {
+        background-color: brown;
+      }
+      table {
+        width: 500px;
+        height: 500px;
+        margin: 100px auto;
+        border-collapse: collapse;
+        box-shadow: 10px 10px 50px #c5c1c1, -10px -10px 50px #c5c1c1;
+      }
+      tr {
+        width: 100%;
+      }
+      td {
+        width: 12.5%;
+      }
+      tr:nth-child(2n + 1) td:nth-child(2n + 1) {
+        background-color: black;
+      }
+      tr:nth-child(2n + 1) td:nth-child(2n) {
+        background-color: rgb(255, 255, 169);
+      }
+      tr:nth-child(2n) td:nth-child(2n) {
+        background-color: black;
+      }
+      tr:nth-child(2n) td:nth-child(2n + 1) {
+        background-color: rgb(255, 255, 169);
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
